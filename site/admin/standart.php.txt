@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<?php include("config.php"); ?>
+	<title><?php echo $siteB['title']; ?> / Management</title>
+	<link rel="stylesheet" href="../style/bootstrap/theme/<?php echo $siteB['theme']; ?>.css">
+	<script type="text/javascript" src="ckeditor/ckeditor.js">
+	</head>
+	
+	<body>
+		<?php include("navbar.php"); 
+		if(isset($_COOKIE['jbAuth'])){
+		?>
+		
+		<div class="jumbotron">
+		<div style="margin:32px;">
+		
+		</div>
+		</div>
+		
+		<?php
+		}else{header("Location:index.php");};
+		?>
+			<script src="style/bootstrap/jquery-1.10.2.min.js"></script>
+			<script src="style/bootstrap/bootstrap.min.js"></script>
+			<script src="style/bootstrap/bootswatch.js"></script>
+	</body>
+</html>
