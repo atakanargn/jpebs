@@ -9,7 +9,7 @@
 		<?php include("navbar.php"); ?>
 		<div class="jumbotron">
 			<div style="margin:32px;">
-				<h2>Hoşgeldin!</h2>
+				<h2>Welcome!</h2>
 				<p></p>
 			</div>
 		</div>

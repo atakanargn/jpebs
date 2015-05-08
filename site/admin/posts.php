@@ -15,6 +15,10 @@
 		<?php
 		if($_GET){
 			if($_GET['p']='delete'){mysql_query("DELETE FROM jb_post WHERE `b_id` = '".$_GET['bid']."'");header("Location:posts.php");};
+			if($_GET['p']='update'){
+				
+			};
+			
 		?>	
 		
 		<?php
@@ -61,7 +65,7 @@
 					?></td>
 					<td><?php echo $sqlT['status']?></td>
 					<td><?php echo $sqlT['author']?></td>
-					<td><a href="posts.php?p=update&bid=<?php echo $sqlT['b_id']?>">Update</a> | <a href="posts.php?p=delete&bid=<?php echo $sqlT['b_id']?>">Delete</a></td>
+					<td><a href="posts.php?p=update&bid=<?php echo $sqlT['b_id']?>">UPDATE</a> | <a href="posts.php?p=delete&bid=<?php echo $sqlT['b_id']?>">DELETE</a></td>
 				</tr>
 		<?php
 		}
