@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-31T08:19:49.925Z" agent="5.0 (X11)" etag="hpNMmIBSCnYyDrI1Q50X" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-31T08:21:54.341Z" agent="5.0 (X11)" etag="Fpa7k5GxI4eq4SK_nUvn" version="14.2.9" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1929" dy="538" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -105,30 +105,28 @@
         <mxCell id="WKc5_VH6EtH_Ui14ZbQe-37" value="&lt;div&gt;RFID kart okumayı bekle.&lt;/div&gt;" style="whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="40" y="260" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="WKc5_VH6EtH_Ui14ZbQe-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WKc5_VH6EtH_Ui14ZbQe-42" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="120" y="420" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="WKc5_VH6EtH_Ui14ZbQe-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WKc5_VH6EtH_Ui14ZbQe-42" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="310" y="365" as="targetPoint" />
+            <mxPoint x="310" y="345" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="q0wSHQrsa-bSmCtDPTkl-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WKc5_VH6EtH_Ui14ZbQe-42" target="WKc5_VH6EtH_Ui14ZbQe-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="WKc5_VH6EtH_Ui14ZbQe-42" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;RFID Kart Okundu&lt;/div&gt;&lt;div&gt;mu?&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="40" y="330" width="160" height="70" as="geometry" />
+          <mxGeometry x="40" y="310" width="160" height="70" as="geometry" />
         </mxCell>
         <mxCell id="WKc5_VH6EtH_Ui14ZbQe-45" value="&lt;div&gt;HAYIR&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="200" y="350" width="40" height="20" as="geometry" />
+          <mxGeometry x="200" y="325" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="WKc5_VH6EtH_Ui14ZbQe-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WKc5_VH6EtH_Ui14ZbQe-48" target="WKc5_VH6EtH_Ui14ZbQe-50" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="WKc5_VH6EtH_Ui14ZbQe-48" value="Kart bilgilerini çek." style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="40" y="420" width="160" height="40" as="geometry" />
+          <mxGeometry x="40" y="395" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="WKc5_VH6EtH_Ui14ZbQe-49" value="&lt;div&gt;EVET&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="120" y="400" width="40" height="20" as="geometry" />
+          <mxGeometry x="130" y="380" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="WKc5_VH6EtH_Ui14ZbQe-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WKc5_VH6EtH_Ui14ZbQe-50" target="WKc5_VH6EtH_Ui14ZbQe-54" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -139,13 +137,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="WKc5_VH6EtH_Ui14ZbQe-50" value="&lt;div&gt;Kart sistemde&lt;/div&gt;&lt;div&gt;tanımlı mı?&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="40" y="490" width="160" height="60" as="geometry" />
+          <mxGeometry x="40" y="450" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="WKc5_VH6EtH_Ui14ZbQe-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WKc5_VH6EtH_Ui14ZbQe-54" target="WKc5_VH6EtH_Ui14ZbQe-56" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="WKc5_VH6EtH_Ui14ZbQe-54" value="BUZZER&#39;dan ses çıkışı ver." style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="250" y="500" width="120" height="40" as="geometry" />
+          <mxGeometry x="250" y="460" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="WKc5_VH6EtH_Ui14ZbQe-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WKc5_VH6EtH_Ui14ZbQe-56" target="WKc5_VH6EtH_Ui14ZbQe-37" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -155,10 +153,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="WKc5_VH6EtH_Ui14ZbQe-56" value="Ekrana hata mesajı yazdır." style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;size=0.3333333333333333;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="250" y="400" width="120" height="60" as="geometry" />
+          <mxGeometry x="250" y="360" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="WKc5_VH6EtH_Ui14ZbQe-58" value="HAYIR" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="200" y="500" width="40" height="20" as="geometry" />
+          <mxGeometry x="200" y="460" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="WKc5_VH6EtH_Ui14ZbQe-65" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WKc5_VH6EtH_Ui14ZbQe-62" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -166,7 +164,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="WKc5_VH6EtH_Ui14ZbQe-62" value="Bilekten sıcaklık ölçümü al.&lt;br&gt;(10sn içinde)" style="whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="60" y="570" width="120" height="50" as="geometry" />
+          <mxGeometry x="60" y="530" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="WKc5_VH6EtH_Ui14ZbQe-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" target="WKc5_VH6EtH_Ui14ZbQe-54" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -174,7 +172,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="WKc5_VH6EtH_Ui14ZbQe-68" value="&lt;div&gt;EVET&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="120" y="550" width="40" height="20" as="geometry" />
+          <mxGeometry x="120" y="510" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="WKc5_VH6EtH_Ui14ZbQe-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" target="WKc5_VH6EtH_Ui14ZbQe-37" edge="1">
           <mxGeometry relative="1" as="geometry">
