@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-31T11:19:52.821Z" agent="5.0 (X11)" etag="KzJIxYl5ZXu9j4ThDL8L" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-31T11:20:55.480Z" agent="5.0 (X11)" etag="JTrZZtW8N7XQuM4kBEs1" version="14.2.9" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="918" dy="448" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -156,12 +156,13 @@
         <mxCell id="k8J-BfT9J23FdX3bnyfp-59" value="&lt;div&gt;HAYIR&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="310" y="530" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="k8J-BfT9J23FdX3bnyfp-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="k8J-BfT9J23FdX3bnyfp-60" target="k8J-BfT9J23FdX3bnyfp-57">
+        <mxCell id="k8J-BfT9J23FdX3bnyfp-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="k8J-BfT9J23FdX3bnyfp-60">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="575" as="targetPoint" />
             <Array as="points">
               <mxPoint x="305" y="655" />
-              <mxPoint x="400" y="655" />
-              <mxPoint x="400" y="575" />
+              <mxPoint x="200" y="655" />
+              <mxPoint x="200" y="575" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -172,7 +173,15 @@
           <mxGeometry x="240" y="620" width="130" height="70" as="geometry" />
         </mxCell>
         <mxCell id="k8J-BfT9J23FdX3bnyfp-63" value="&lt;div&gt;HAYIR&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="355" y="630" width="40" height="20" as="geometry" />
+          <mxGeometry x="205" y="630" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="k8J-BfT9J23FdX3bnyfp-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="k8J-BfT9J23FdX3bnyfp-64" target="k8J-BfT9J23FdX3bnyfp-32">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="430" y="730" />
+              <mxPoint x="430" y="230" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="k8J-BfT9J23FdX3bnyfp-64" value="Master cihaza sinyal gönder." style="whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="230" y="710" width="150" height="40" as="geometry" />
