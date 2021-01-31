@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-31T11:20:55.480Z" agent="5.0 (X11)" etag="JTrZZtW8N7XQuM4kBEs1" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-31T11:21:54.779Z" agent="5.0 (X11)" etag="znSGW8P4578c6YZVauqA" version="14.2.9" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="918" dy="448" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -28,20 +28,20 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="k8J-BfT9J23FdX3bnyfp-11" value="Kurulum işlemini başlat." style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="455" y="120" width="120" height="60" as="geometry" />
+          <mxGeometry x="435" y="120" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="k8J-BfT9J23FdX3bnyfp-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="k8J-BfT9J23FdX3bnyfp-13" target="k8J-BfT9J23FdX3bnyfp-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="k8J-BfT9J23FdX3bnyfp-13" value="AP modunda çalış.&lt;br&gt;&lt;div&gt;Bağlantı bekle.&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="595" y="120" width="120" height="60" as="geometry" />
+          <mxGeometry x="570" y="120" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="k8J-BfT9J23FdX3bnyfp-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="k8J-BfT9J23FdX3bnyfp-16" target="k8J-BfT9J23FdX3bnyfp-13">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="820" y="30" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="820" y="90" />
-              <mxPoint x="655" y="90" />
+              <mxPoint x="770" y="90" />
+              <mxPoint x="630" y="90" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -49,57 +49,62 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="k8J-BfT9J23FdX3bnyfp-16" value="Bağlantı var mı?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="755" y="110" width="130" height="80" as="geometry" />
+          <mxGeometry x="705" y="110" width="130" height="80" as="geometry" />
         </mxCell>
         <mxCell id="k8J-BfT9J23FdX3bnyfp-17" value="&lt;div&gt;HAYIR&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="720" y="70" width="40" height="20" as="geometry" />
+          <mxGeometry x="680" y="70" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="k8J-BfT9J23FdX3bnyfp-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="k8J-BfT9J23FdX3bnyfp-19" target="k8J-BfT9J23FdX3bnyfp-21">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="k8J-BfT9J23FdX3bnyfp-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="k8J-BfT9J23FdX3bnyfp-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="770" y="285" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="k8J-BfT9J23FdX3bnyfp-19" value="&lt;div&gt;Bağlanan kişiye formu otomatik aç.&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="750" y="210" width="140" height="60" as="geometry" />
+          <mxGeometry x="700" y="210" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="k8J-BfT9J23FdX3bnyfp-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="k8J-BfT9J23FdX3bnyfp-21" target="k8J-BfT9J23FdX3bnyfp-23">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="k8J-BfT9J23FdX3bnyfp-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="k8J-BfT9J23FdX3bnyfp-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="770" y="355" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="k8J-BfT9J23FdX3bnyfp-21" value="&lt;div&gt;Kablosuz ağ bilgileri&lt;/div&gt;&lt;div&gt;ve bağlanılacak&lt;/div&gt;&lt;div&gt;sunucu bilgilerini al.&lt;/div&gt;" style="shape=parallelogram;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="715" y="285" width="210" height="70" as="geometry" />
+          <mxGeometry x="665" y="280" width="210" height="70" as="geometry" />
         </mxCell>
         <mxCell id="k8J-BfT9J23FdX3bnyfp-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="k8J-BfT9J23FdX3bnyfp-23" target="k8J-BfT9J23FdX3bnyfp-26">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="k8J-BfT9J23FdX3bnyfp-23" value="Bağlantıları test et." style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="750" y="370" width="140" height="60" as="geometry" />
+          <mxGeometry x="700" y="370" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="k8J-BfT9J23FdX3bnyfp-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="k8J-BfT9J23FdX3bnyfp-26">
+        <mxCell id="k8J-BfT9J23FdX3bnyfp-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.093;entryY=0.493;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="k8J-BfT9J23FdX3bnyfp-26" target="k8J-BfT9J23FdX3bnyfp-21">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="720" y="345" as="targetPoint" />
+            <mxPoint x="670" y="345" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="690" y="480" />
-              <mxPoint x="690" y="345" />
+              <mxPoint x="640" y="480" />
+              <mxPoint x="640" y="315" />
+              <mxPoint x="670" y="315" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="k8J-BfT9J23FdX3bnyfp-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="k8J-BfT9J23FdX3bnyfp-26">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="820" y="540.0000000000001" as="targetPoint" />
+            <mxPoint x="770" y="540.0000000000001" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="k8J-BfT9J23FdX3bnyfp-26" value="&lt;div&gt;Bağlantılarda&lt;/div&gt;&lt;div&gt;problem var mı?&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="740" y="440" width="160" height="80" as="geometry" />
+          <mxGeometry x="690" y="440" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="k8J-BfT9J23FdX3bnyfp-27" value="EVET" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="690" y="460" width="40" height="20" as="geometry" />
+          <mxGeometry x="640" y="460" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="k8J-BfT9J23FdX3bnyfp-28" value="&lt;div&gt;EVET&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="830" y="180" width="40" height="20" as="geometry" />
+          <mxGeometry x="780" y="180" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="k8J-BfT9J23FdX3bnyfp-29" value="&lt;div&gt;HAYIR&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="820" y="520" width="40" height="20" as="geometry" />
+          <mxGeometry x="770" y="520" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="k8J-BfT9J23FdX3bnyfp-31" value="&lt;div&gt;Cihazı yeniden başlat.&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="760" y="540" width="120" height="50" as="geometry" />
+          <mxGeometry x="710" y="540" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="k8J-BfT9J23FdX3bnyfp-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="k8J-BfT9J23FdX3bnyfp-32" target="k8J-BfT9J23FdX3bnyfp-36">
           <mxGeometry relative="1" as="geometry" />
