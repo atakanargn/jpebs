@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-31T11:19:39.928Z" agent="5.0 (X11)" etag="rl3tPWDEYNfXOwXN137e" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-31T11:19:52.821Z" agent="5.0 (X11)" etag="KzJIxYl5ZXu9j4ThDL8L" version="14.2.9" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="918" dy="448" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -175,7 +175,7 @@
           <mxGeometry x="355" y="630" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="k8J-BfT9J23FdX3bnyfp-64" value="Master cihaza sinyal gönder." style="whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="230" y="710" width="150" height="30" as="geometry" />
+          <mxGeometry x="230" y="710" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="k8J-BfT9J23FdX3bnyfp-66" value="EVET" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="310" y="690" width="40" height="20" as="geometry" />
