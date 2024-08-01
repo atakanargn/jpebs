@@ -14,7 +14,7 @@
 		<div style="margin:32px;">
 		<?php
 		if($_GET){
-			if($_GET['p']='delete'){mysql_query("DELETE FROM jb_post WHERE `b_id` = '".$_GET['bid']."'");header("Location:posts.php");};
+			if($_GET['p']='delete'){mysqli_query($conn,"DELETE FROM jb_post WHERE `b_id` = '".$_GET['bid']."'");header("Location:posts.php");};
 			if($_GET['p']='update'){
 				
 			};
@@ -48,8 +48,8 @@
 					<td></td>
 			</tr>
 		<?php 
-		$sqlP=mysql_query("select * from jb_post order by id asc");
-		while($sqlT=mysql_fetch_array($sqlP)){
+		$sqlP=mysqli_query($conn,"select * from jb_post order by id asc");
+		while($sqlT=mysqli_fetch_array($sqlP)){
 		?>
 				<tr>
 					<td><?php echo $sqlT['id']?></td>

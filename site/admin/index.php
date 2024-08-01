@@ -3,8 +3,8 @@
 	<head>
 	<?php include("config.php"); ?>
 			<?php if($_POST){
-			$logSql=mysql_query("select * from jb_users where username='".$_POST['username']."'");
-			while($cheSql=mysql_fetch_array($logSql)){
+			$logSql=mysqli_query($conn,"select * from jb_users where username='".$_POST['username']."'");
+			while($cheSql=mysqli_fetch_array($logSql)){
 				if($cheSql['username']==$_POST['username'] && $cheSql['password']==$_POST['password']){
 					if($cheSql['authority']==0){setcookie("jbAuth","author");header("Location:index.php");}
 					if($cheSql['authority']==1){setcookie("jbAuth","admin");header("Location:index.php");}

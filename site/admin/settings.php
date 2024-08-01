@@ -4,7 +4,7 @@
 	<head>
 			
 			<?php if($_POST){
-			$linkSql=mysql_query("UPDATE jb_settings SET `title` = '".$_POST['stitle']."', `description` = '".$_POST['sdescription']."', `keywords` = '".$_POST['skeywords']."', `language` = '".$_POST['slang']."', `webmaster` = '".$_POST['swebmaster']."', `theme` = '".$_POST['stheme']."', `contact-mail` = '".$_POST['scmail']."' WHERE `id` = 1;");
+			$linkSql=mysqli_query($conn,"UPDATE jb_settings SET `title` = '".$_POST['stitle']."', `description` = '".$_POST['sdescription']."', `keywords` = '".$_POST['skeywords']."', `language` = '".$_POST['slang']."', `webmaster` = '".$_POST['swebmaster']."', `theme` = '".$_POST['stheme']."', `contact-mail` = '".$_POST['scmail']."' WHERE `id` = 1;");
 			header("Location:settings.php");
 			};
 		?>
@@ -19,8 +19,8 @@
 		
 		<div class="jumbotron">
 		<h2 style="margin:16px;"><?php echo $siteB['title']; ?> settings page</h2>
-		<?php $sqlSt=mysql_query("select * from jb_settings where id='1'"); 
-			while($sqlDt=mysql_fetch_array($sqlSt)){
+		<?php $sqlSt=mysqli_query($conn,"select * from jb_settings where id='1'"); 
+			while($sqlDt=mysqli_fetch_array($sqlSt)){
 				
 		?>
 		

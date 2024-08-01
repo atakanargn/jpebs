@@ -9,8 +9,8 @@
 		<?php include("navbar.php"); ?>
 		<div class="jumbotron">
 		<?php
-		$sqlPa=mysql_query("select * from jb_pages where link='".$_GET['q']."'");
-					while($pagB=mysql_fetch_array($sqlPa)){
+		$sqlPa=mysqli_query($conn,"select * from jb_pages where link='".$_GET['q']."'");
+					while($pagB=mysqli_fetch_array($sqlPa)){
 						echo '<h1>'.$pagB['name'].'</h1>';
 						echo $pagB['content'];
 					}

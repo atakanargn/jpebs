@@ -6,12 +6,12 @@
 			<?php if($_POST){
 				$l_sql=explode("_",$_POST['sprocess']);
 				if($l_sql[0]==0){
-				$linkSql=mysql_query("DELETE FROM jb_users WHERE `id` = '".$l_sql[1]."'");
+				$linkSql=mysqli_query($conn,"DELETE FROM jb_users WHERE `id` = '".$l_sql[1]."'");
 					header("Location:users.php");
 				}
 				
 				if($l_sql[0]==1){
-				$linkSql=mysql_query("UPDATE jb_users SET `email` = '".$_POST['smail']."', `authority` = '".$_POST['sauth']."' WHERE `id` = '".$l_sql[1]."'");
+				$linkSql=mysqli_query($conn,"UPDATE jb_users SET `email` = '".$_POST['smail']."', `authority` = '".$_POST['sauth']."' WHERE `id` = '".$l_sql[1]."'");
 					header("Location:users.php");
 				}
 
@@ -41,8 +41,8 @@
 				</tr>
 			</thead>
 		<tbody>
-		<?php $sqlSt=mysql_query("select * from jb_users order by id asc"); 
-			while($sqlDt=mysql_fetch_array($sqlSt)){
+		<?php $sqlSt=mysqli_query($conn,"select * from jb_users order by id asc"); 
+			while($sqlDt=mysqli_fetch_array($sqlSt)){
 				
 		?>
 		<form method="POST" action="users.php" class="form-horizontal">

@@ -1,21 +1,20 @@
 <?php
 //MySql settings
 $dbConn['host']='localhost';
-$dbConn['user']='root';
+$dbConn['user']='argininf1_jpebs';
 $dbConn['pass']='';
-$dbConn['dbas']='jblog';
+$dbConn['dbas']='argininf1_jpebs';
 
-mysql_connect($dbConn['host'], $dbConn['user'], $dbConn['pass']);
-mysql_select_db($dbConn['dbas']);
+$conn = mysqli_connect($dbConn['host'], $dbConn['user'], $dbConn['pass']);
+mysqli_select_db($conn, $dbConn['dbas']);
 
-mysql_query("SET NAMES 'UTF8'");
-mysql_query("SET character_set_connection = 'UTF8'");
-mysql_query("SET character_set_client = 'UTF8'");
-mysql_query("SET character_set_results = 'UTF8'");
+mysqli_query($conn,"SET NAMES 'UTF8'");
+mysqli_query($conn,"SET character_set_connection = 'UTF8'");
+mysqli_query($conn,"SET character_set_client = 'UTF8'");
+mysqli_query($conn,"SET character_set_results = 'UTF8'");
 
-$sql=mysql_query("SELECT * from jb_settings where id='1'");
-
-while($sqlC=mysql_fetch_array($sql)){
+$sql=mysqli_query($conn,"SELECT * from jb_settings where id='1'");
+while($sqlC=mysqli_fetch_array($sql)){
 	$siteB['title']=$sqlC['title'];
 	$siteB['description']=$sqlC['description'];
 	$siteB['keywords']=$sqlC['keywords'];

@@ -8,7 +8,7 @@
 			<ul class="nav navbar-nav">
 
 				<?php 
-				$pageNums=mysql_num_rows(mysql_query("select * from jb_pages"));
+				$pageNums=mysqli_num_rows(mysqli_query($conn,"select * from jb_pages"));
 				if(!($pageNums==0)){
 					?>
 					<li class="dropdown">
@@ -16,8 +16,8 @@
 						<ul class="dropdown-menu" role="menu">
 					
 					<?php
-					$sqlP=mysql_query("select * from jb_pages order by id asc");
-					while($pageB=mysql_fetch_array($sqlP)){
+					$sqlP=mysqli_query($conn,"select * from jb_pages order by id asc");
+					while($pageB=mysqli_fetch_array($sqlP)){
 						echo '<li><a href="page.php?q='.$pageB['link'].'">'.$pageB['name'].'</a></li>';
 					}
 					?>
@@ -26,7 +26,7 @@
 		<?php	} ?>
 		
 <?php 
-				$cateNums=mysql_num_rows(mysql_query("select * from jb_categories"));
+				$cateNums=mysqli_num_rows(mysqli_query($conn,"select * from jb_categories"));
 				if(!($cateNums==0)){
 					?>
 					<li class="dropdown">
@@ -34,8 +34,8 @@
 						<ul class="dropdown-menu" role="menu">
 					
 					<?php
-					$sqlCa=mysql_query("select * from jb_categories order by id asc");
-					while($cateB=mysql_fetch_array($sqlCa)){
+					$sqlCa=mysqli_query($conn,"select * from jb_categories order by id asc");
+					while($cateB=mysqli_fetch_array($sqlCa)){
 						echo '<li><a href="categorie.php?q='.$cateB['link'].'">'.$cateB['name'].'</a></li>';
 					}
 					?>
